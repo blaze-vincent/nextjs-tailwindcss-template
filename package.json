@@ -1,5 +1,5 @@
 {
-  "name": "dhs-utilities",
+  "name": "bv-nextjs-tailwindcss-template",
   "private": true,
   "scripts": {
     "dev": "next dev",
