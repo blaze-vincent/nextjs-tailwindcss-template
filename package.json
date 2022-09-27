@@ -8,7 +8,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "connect-mongo": "^4.6.0",
+    "dotenv": "^16.0.2",
     "express-session": "^1.17.3",
     "mongoose": "^6.3.3",
     "next": "^12.1.0",
