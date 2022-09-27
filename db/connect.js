@@ -11,7 +11,7 @@ export default async function dbConnect() {
   }
 
   if (!cached.promise) {
-    cached.promise = mongoose.connect(process.env.MONGO_URI).then(mongoose => {
+    cached.promise = mongoose.connect(process.env.MONGODB_URI).then(mongoose => {
       return mongoose
     })
   }
